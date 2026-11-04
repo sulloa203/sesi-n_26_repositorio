@@ -1,0 +1,22 @@
+/* styles.css — estilos mínimos; los colores del semáforo siguen la diapositiva 6 */
+:root { font-family: system-ui, sans-serif; color-scheme: light dark; }
+body { margin: 0; }
+.app { max-width: 420px; margin: 2rem auto; padding: 0 1rem; }
+.app__subtitle { margin-top: -0.5rem; opacity: 0.7; }
+
+.search__form label { display: block; margin-bottom: 0.35rem; font-weight: 600; }
+.search__row { display: flex; gap: 0.5rem; }
+.search__row input { flex: 1; padding: 0.55rem; font-size: 1rem; }
+.search__row button { padding: 0.55rem 1rem; font-size: 1rem; cursor: pointer; }
+.search__row button:disabled { cursor: not-allowed; opacity: 0.5; }
+
+.msg { margin-top: 1.25rem; padding: 0.75rem 1rem; border-radius: 8px; border-left: 6px solid; }
+.msg--loading { border-color: #d4a017; background: rgba(212, 160, 23, 0.12); }
+.msg--error { border-color: #e5534b; background: rgba(229, 83, 75, 0.12); }
+
+.card { margin-top: 1.25rem; padding: 1rem 1.25rem; border-radius: 8px;
+        border-left: 6px solid #3fb97f; background: rgba(63, 185, 127, 0.1); text-align: center; }
+.card img { width: 140px; height: 140px; image-rendering: pixelated; }
+.card h2 { margin: 0.25rem 0 0.5rem; }
+.card h3 { margin: 0.75rem 0 0.25rem; font-size: 0.95rem; text-transform: uppercase; opacity: 0.7; }
+.card ul { list-style: none; margin: 0; padding: 0; }
